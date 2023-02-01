@@ -5,7 +5,7 @@ import time
 import random
 
 url = 'https://ptrp.com.br/home/create_ponto'
-headers = {'cookie': 'intercom-id-98c1119f8a25c0b886bf6f022cbf8cfbdc15f49f=323ce685-ca26-4fa3-86e3-f9ac189549fe; intercom-device-id-98c1119f8a25c0b886bf6f022cbf8cfbdc15f49f=e68d63ae-04bb-4fda-882c-8100a90e0fba; cookie_eu_consented=true; intercom-session-98c1119f8a25c0b886bf6f022cbf8cfbdc15f49f=; remember_user_token=BAhbCFsGaQK1YUkiIiQyYSQxMCRMWU01RzZZS0FobUxHcWJTT0JLVDhPBjoGRVRJIhcxNjc1MTgzMzMzLjIxMjcyNTkGOwBG--8c98adb0c604e3a58bf73ffecd01663e55806743; _ptrp_session=NTRhV0dRMCtKSy9Cd0lheEluRElYVWZjaXJXcHFnWlYrSWZmQ1pGUldxeGVYbnN6S2s0dmhWSzZzbEdjQU5xcjM2RGZsZ1gwaXVXVG0zKzJPVEJ5c1lYbVdlZXBkUVYrM2dGNFNqbUxkZjc5enZiZ3FyL1dnVGN5SVJMbzZxM0o1NFo2N0k2UWRTbDZaWDFJUTlDNzZ3ZCtJdWd4YS9PeHdEdklsMTBVeXo5cFVVOGhmWEhjZGZZM1ZNalBlV0lSNkN2ekJuc3Qyc1UrRDFCREpSMmErNWYxNnhtaEd1NTZqd1dhNXN0c3YwZEVYUHVQVXltbGhtblFFdHlLWDIyZ2RVUnNveEc0Q2pobVNsSG1qK0ZBWndac1V6eUxSdHd4ZzVtMzl4NGl0aHM4RmQ3Sk9NbCt6ZVNQbFpLaGlFS2doTEYrTWVjc1ZMbURiNzcxNDJxT1c5TDNtZmFJVTE4dFpUbDdZaVpiM3VJPS0tVUlqakZmOUtpS0FoWlRzOHBaYWJ1Zz09--9deacbd1095d406b58dc6692927f27af4a4d84c5; PTRP-LB="MTAuMTM2LjE1LjEwNzo4MA=="', 'x-csrf-token': 'fqF69/zHm3ER7vG3PkIcG1GkgFYP3tJ6ANGZ6Gwn4FJZiegum2vcWhu+d5i8LmNvIMf88v+vqDS2S0qWpoDezA=='}
+headers = {'cookie': '', 'x-csrf-token': ''}
 
 def register_point1():
     random_minute_string = str(0) + str(random.randint(0, 9))
